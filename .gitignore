@@ -1,0 +1,11 @@
+# Файлы с секретными значениями переменных
+terraform.tfvars
+*.tfvars
+
+# Локальный кэш провайдеров и плагинов
+.terraform/
+.terraform.lock.hcl
+
+# Файлы состояния (содержат чувствительные данные)
+terraform.tfstate
+terraform.tfstate.backup
